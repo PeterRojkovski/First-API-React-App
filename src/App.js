@@ -1,15 +1,11 @@
 import React from 'react'
-import CounterExample from './Components/CounterExample.js';
 import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
-import { render } from "react-dom";
 import {
   BrowserRouter,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom"
-import background from './picture.jpg' 
 import Home from './Views/Home.js';
 import About from './Views/About.js';
 import Product from './Views/Product.js';
