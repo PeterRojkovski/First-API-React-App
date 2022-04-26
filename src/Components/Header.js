@@ -5,7 +5,7 @@ function Header(){
     return(
         <header className="border-b p-3 flex justify-between items-center shadow-2xl">
             <span className="font-bold text-4xl">
-                Peter's Store
+                The Store of all Stores
             </span>
                 
             <Navigation/>
